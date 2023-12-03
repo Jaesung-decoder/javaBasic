@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Practice02 {
+public class W1_Practice02 {
   public static void main(String[] Args){
     System.out.println("[캐시백 계산]");
     System.out.print("결제 금액을 입력해 주세요. (금액):");
