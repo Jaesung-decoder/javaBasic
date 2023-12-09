@@ -4,7 +4,7 @@
 import java.util.Scanner;
 import java.util.Random;
 
-public class Main {
+public class W1_Practice04 {
     public static void main(String[] args){
 //      birthYear, birthMonth, birthDate, sex 입력 받아 변수 저장
         Boolean flag = true;
