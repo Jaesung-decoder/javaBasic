@@ -1,3 +1,5 @@
+// 류재성
+
 import java.util.Scanner;
 
 public class W1_Practice03 {
