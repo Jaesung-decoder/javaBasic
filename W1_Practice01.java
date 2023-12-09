@@ -1,3 +1,5 @@
+// 류재성
+
 public class W1_Practice01 {
   public static void main(String[] args){
           System.out.println("[구구단 출력]");
