@@ -40,9 +40,9 @@ public class W1_Practice05 {
 
 //      머리말 출력 - 이전 달, 선택된 달, 현재 달 및 요일 출력
         System.out.print("[" + preYear + "년 " + preMonth + "월]");
-        System.out.print("\t\t\t\t\t");
+        System.out.print("\t\t\t\t\t\t");
         System.out.print("[" + focusYear + "년 " + focusMonth + "월]");
-        System.out.print("\t\t\t\t\t");
+        System.out.print("\t\t\t\t\t\t");
         System.out.println("[" + curYear + "년 " + curMonth + "월]");
         System.out.println("일\t월\t화\t수\t목\t금\t토\t\t일\t월\t화\t수\t목\t금\t토\t\t일\t월\t화\t수\t목\t금\t토");
 
