@@ -52,7 +52,7 @@ public class W1_Practice07 {
         DigitLottery theChosen = new DigitLottery();
         rightCombination = theChosen.generateCombination();
         
-        System.out.println("[로또 발표]\n");
+        System.out.println("[로또 발표]");
         System.out.print("\t");
         for (int i = 0; i < rightCombination.size(); i++) {
             System.out.print(rightCombination.get(i));
@@ -64,7 +64,7 @@ public class W1_Practice07 {
         System.out.println();
 
 
-        System.out.println("[내 로또 결과]\n");
+        System.out.println("[내 로또 결과]");
         for (int i = 0; i < myTotalCombination.size(); i++) {
             System.out.print((char)(i+65) + "\t");
             ArrayList ar2 = myTotalCombination.get((char)(i+65));
