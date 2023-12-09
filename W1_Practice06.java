@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Assignment06 {
+public class W1_Practice06 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.print("총 진행할 투표수를 입력해 주세요.");
