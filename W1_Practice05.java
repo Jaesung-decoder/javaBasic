@@ -10,7 +10,7 @@
 import java.time.LocalDate;
 import java.util.Calendar;
 import java.util.Scanner;
-public class Main {
+public class W1_Practice05 {
     public static void main(String[] args) {
         System.out.println("[달력 출력 프로그램]");
         System.out.print("달력의 년도를 입력해 주세요.(yyyy): ");
