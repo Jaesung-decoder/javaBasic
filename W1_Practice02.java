@@ -8,6 +8,7 @@ public class W1_Practice02 {
     System.out.print("결제 금액을 입력해 주세요. (금액):");
     Scanner in = new Scanner(System.in);
     int totalCharge = in.nextInt();
+    in.close();
 
     int cashBack = 0;
     if ((totalCharge * 0.1) / 100 > 3){
