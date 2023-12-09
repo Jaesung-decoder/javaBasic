@@ -50,6 +50,7 @@ public class W1_Practice04 {
             break;
         }
 
+        sc.close();
 //      임의번호 값 구하기
         Random random = new Random();
 
