@@ -49,7 +49,7 @@ public class W1_Practice05 {
         Calendar cal = Calendar.getInstance();
 
 
-        for (int j = 1; j < 36; j += 7) {
+        for (int j = 1; j < 42; j += 7) {
             for (int k = 0; k < 3; k++) {
                 cal.set(targetYear[k], targetMonth[k] - 1, 1);
                 int StartDay = cal.get(Calendar.DAY_OF_WEEK);
