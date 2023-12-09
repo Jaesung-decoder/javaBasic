@@ -6,20 +6,18 @@ public class W1_Practice03 {
     public static void main(String[] args){
         System.out.println("[입장권 계산]");
         System.out.print("나이를 입력해 주세요. (숫자):");
-        Scanner typeAge = new Scanner(System.in);
-        int age = typeAge.nextInt();
+        Scanner sc = new Scanner(System.in);
+        int age = sc.nextInt();
 
         System.out.print("입장시간을 입력해 주세요. (숫자입력):");
-        Scanner enterHour = new Scanner(System.in);
-        int hour = enterHour.nextInt();
+        int hour = sc.nextInt();
 
         System.out.print("국가유공자 여부를 입력해 주세요.(y/n):");
-        Scanner flag = new Scanner(System.in);
-        String merit = flag.next();
+        String merit = sc.next();
 
         System.out.print("복지카드 여부를 입력해 주세요.(y/n):");
-        Scanner card = new Scanner(System.in);
-        String welfareCard = card.next();
+        String welfareCard = sc.next();
+        sc.close();
 
         int entryFare = 10000;
         if(age < 3){
