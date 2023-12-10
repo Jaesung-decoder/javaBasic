@@ -11,6 +11,7 @@ public class W1_Practice03 {
 
         System.out.print("입장시간을 입력해 주세요. (숫자입력):");
         int hour = sc.nextInt();
+        sc.nextLine();
 
         System.out.print("국가유공자 여부를 입력해 주세요.(y/n):");
         String merit = sc.next();
