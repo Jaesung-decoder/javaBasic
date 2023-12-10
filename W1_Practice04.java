@@ -54,7 +54,7 @@ public class W1_Practice04 {
         Random random = new Random();
 
         System.out.printf(Integer.toString(birthYear).substring(2) + String.format("%02d",birthMonth) + String.format("%02d", birthDate) + "-" + Integer.toString(sex
-        ) + String.format("%06d",(int)random.nextInt(999999)));
+        ) + String.format("%06d",(int)random.nextInt(999998)+1));
 
     }
 }
