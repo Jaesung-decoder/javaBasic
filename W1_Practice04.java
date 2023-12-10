@@ -34,7 +34,6 @@ public class W1_Practice04 {
         System.out.print("출생월을 입력해 주세요.(mm):");
         int birthMonth = sc.nextInt();
         System.out.print("출생일을 입력해 주세요.(dd):");
-        sc.nextLine();
         int birthDate = sc.nextInt();
 
 //      성별 'm' 이면 3, 'f'이면 4
