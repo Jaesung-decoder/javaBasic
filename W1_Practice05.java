@@ -17,7 +17,6 @@ public class W1_Practice05 {
         System.out.print("달력의 년도를 입력해 주세요.(yyyy): ");
         Scanner sc = new Scanner(System.in);
         int focusYear = sc.nextInt();
-        sc.nextLine();
         System.out.print("달력의 월을 입력해 주세요.(mm):");
         int focusMonth = sc.nextInt();
 
