@@ -19,13 +19,13 @@ class DigitLottery {
     }
 }
 
-public class Assignment07 {
+public class W1_Practice07 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("[로또 당첨 프로그램]\n");
         System.out.print("로또 개수를 입력해 주세요. (숫자 1 ~ 10):");
         int numLottery = sc.nextInt();
-        sc.nextLine();
+        sc.close();
 
 //      내가 구매한 로또 번호 생성하기
         HashMap<Character, LinkedList> myTotalCombination = new HashMap<>(numLottery);
