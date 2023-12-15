@@ -1,7 +1,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
 import java.util.stream.Collectors;
@@ -20,31 +19,15 @@ public class LinkedListPractice {
 
         LinkedList<Integer> list = IntStream.range(1, n + 1).boxed().collect(Collectors.toCollection(LinkedList::new));
 
-        int order = 0;
-        System.out.print("<");
+        int index = 0;
+        StringBuilder result = new StringBuilder("<");
 
-        Iterator<Integer> iterator = list.iterator();
-        while (list.size() > 1) {
-            while (iterator.hasNext()) {
-                Integer element = iterator.next();
-                order++;
-
-                if (order % k == 0) {
-                    System.out.print(element);
-
-                    iterator.remove();
-
-                    if (list.size() > 1) {
-                        System.out.print(", ");
-                    }
-                }
-            }
-
-            iterator = list.iterator();
+        while(list.size() > 1){
+            index = (index + k - 1) % list.size();
+            result.append(list.remove(index)).append(", ");
         }
-        if(!list.isEmpty()){
-            System.out.print(", " + list.get(0));
-        }
-        System.out.print(">");
+
+        result.append(list.getFirst()).append(">");
+        System.out.println(result);
     }
 }
