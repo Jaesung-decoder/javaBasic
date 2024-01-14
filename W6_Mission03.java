@@ -61,7 +61,7 @@ class Pager{
 
 }
 
-public class W6_mission03 {
+public class W6_Mission03 {
     public static void main(String[] args) throws IOException {
 //      전체 게시글 totalCount로 설정, 현재 페이지 pageIndex로 설정
         long totalCount = 127;
