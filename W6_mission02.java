@@ -1,7 +1,7 @@
 import java.util.HashSet;
 import java.util.Scanner;
 
-public class W6_Mission02 {
+public class W6_mission02 {
     public static void main(String[] args) {
 //      나의 좌표 입력 받기: 쉼표로 구분한 정수 입력
         System.out.print("나의 좌표 값을 입력하시오.\n(x좌표와 y좌표는 공백 없이 쉼표로 구분): ");
